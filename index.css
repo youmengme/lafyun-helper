@@ -1,0 +1,17 @@
+.box {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 300px;
+	z-index: 100;
+	background: #fff;
+	transition: left .3s ease-in-out;
+}
+.box.show {
+	left: 0;
+}
+
+.box.hide {
+	left: -300px;
+}
